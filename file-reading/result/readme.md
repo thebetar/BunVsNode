@@ -8,3 +8,7 @@ The result of the file reading are
 | Node | 0.33ms | 2.32ms | 3.202ms | 11.979ms | 34.314ms | 57.75ms |
 
 The interesting conclusion from the tests I ran is that node.js is faster in reading small files but once the file gets bigger the speed starts to decrease significantly while bun's speed starts to take over.
+
+**The 123MB file could not be uploaded to Github find it here**
+
+[Kaggle](https://www.kaggle.com/datasets/rmisra/clothing-fit-dataset-for-size-recommendation)
