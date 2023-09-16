@@ -24,3 +24,7 @@ This is true and bun does this by analysing where the change has happened and on
 ## File reading
 
 In the file reading test something interesting happened. While node.js was consistently faster when reading small files, once files got bigger than 100kb, bun took over with a big speed improvement.
+
+## Using ES modules and CommonJS modules in the same file
+
+Bun claims to be able to resolve ES modules and commonjs modules in the same file. Which it can! This is great when using a dependency that somehow still uses common.js in a ES6+ project.
